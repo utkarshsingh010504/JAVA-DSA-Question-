@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+</head>
+<body>
+    <div class="product-page">
+        <div class="product-gallery">
+            <div class="main-image">
+                <img id="main-image" src="Productimage.png" alt="Product Image">
+            </div>
+            <div class="thumbnails">
+                <div class="thumbnail active">
+                    <img src="Thumbnail1.png" alt="Thumbnail 1">
+                </div>
+                <div class="thumbnail">
+                    <img src="Thumbnail2.png" alt="Thumbnail 2">
+                </div>
+                <div class="thumbnail">
+                    <img src="Thumbnail3.png" alt="Thumbnail 3">
+                </div>
+                <div class="thumbnail">
+                    <img src="Thumbnail4.png" alt="Thumbnail 4">
+                </div>
+                <div class="thumbnail">
+                    <img src="Thumbnail5.png" alt="Thumbnail 5">
+                </div>
+            </div>
+        </div>
+        <div class="Infomation">
+            <h1>Shirt</h1>
+            <p>This shirt boasts a modern yet classic design that seamlessly bridges the gap between casual and sophisticated. The regular fit ensures comfort without sacrificing style, making it suitable for various occasions, from casual Fridays at the office to weekend get-togethers. This design of the men's shirt is tastefully incorporated to make a statement without overwhelming your outfit. Choose the outfit that best complements your style.</p>
+            <div class="size-options">
+                <button class="size-chart-btn">Size Chart</button>
+                <select id="size-select">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                </select>
+            </div>
+            <div class="color-options">
+                <button class="color-swatch active" style="background-color: #f00;"></button>
+                <button class="color-swatch" style="background-color: #0f0;"></button>
+                <button class="color-swatch" style="background-color: #00f;"></button>
+                <button class="compare-colors-btn">Compare Colours</button>
+            </div>
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+        <div class="pair-well-with">
+            <h2>Pair Well With</h2>
+            <div class="product-row">
+                <div class="product-card">
+                    <img src="Men Regular Fit Solid Spread Collar Casual Shirt.png" alt="Men Regular Fit Solid Spread Collar Casual Shirt">
+                    <h3>Men Regular Fit Solid Spread Collar Casual Shirt</h3>
+                    <p>$19.99</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="Men Regular Fit Solid Mandarin Collar Casual Shirt.png" alt="Men Regular Fit Solid Mandarin Collar Casual Shirt">
+                    <h3>Men Regular Fit Solid Mandarin Collar Casual Shirt</h3>
+                    <p>$29.99</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="Men Regular Fit Solid Spread Collar Casual shirt.png" alt="Men Regular Fit Solid Spread Collar Casual shirt">
+                    <h3>Men Regular Fit Solid Spread Collar Casual shirt</h3>
+                    <p>$39.99</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="product-bundle">
+            <h2>Product Bundle</h2>
+            <div class="bundle-products">
+                <div class="bundle-product">
+                    <img src="Men Regular Fit Solid Mandarin Collar Casual shirt.png" alt="Men Regular Fit Solid Mandarin Collar Casual shirt">
+                    <h3>Men Regular Fit Solid Mandarin Collar Casual shirt</h3>
+                    <p>$19.99</p>
+                </div>
+                <div class="bundle-product">
+                    <img src="Men Regular Fit Solid Spread Collar Casual shirt.png" alt="Men Regular Fit Solid Spread Collar Casual shirt">
+                    <h3>Men Regular Fit Solid Spread Collar Casual shirt</h3>
+                    <p>$29.99</p>
+                </div>
+            </div>
+            <p>Total: $49.98</p>
+            <button class="add-bundle-to-cart-btn">Add Bundle to Cart</button>
+        </div>
+        <div class="product-tabs">
+            <button class="tab-btn active" data-tab="description">Description</button>
+            <button class="tab-btn" data-tab="product-info">Product Information</button>
+            <button class="tab-btn" data-tab="shipping-details">Shipping Details</button>
+            <div class="tab-content active" id="description">
